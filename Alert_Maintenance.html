@@ -1,0 +1,46 @@
+<!-- script and format for catalog -->
+<!-- Use plus sign and single quotes if you break text inside of jQuery script -->
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('.header').before(
+              '<div class="alertMessageL1"><strong>SYSTEM MAINTENANCE</strong> is scheduled for <strong>Tuesday, June 20</strong> between <strong>12:00 a.m. and 6:00 a.m.</strong></div></br>'
+            + '<div class="alertMessageL2">Access to our catalog and electronic items including eBooks, eMagazines, and databases may be unavailable during this time.</div>'
+        );
+    });
+</script>
+
+
+<!-- format for website -->
+<div class="alertMessageL1">
+    <strong>SYSTEM MAINTENANCE</strong> is scheduled for <strong>Tuesday, June 20</strong> between <strong>12:00 a.m. and 6:00 a.m.</strong>
+</div>
+<div class="alertMessageL2">
+    Access to our catalog and electronic items including eBooks, eMagazines, and databases may be unavailable during this time.
+</div>
+
+
+
+
+<!-- NOTE in stylesheets library.css and catalogCustomTheme.css - FTP site  -->
+
+<style>
+.alertMessageL1 {
+text-align: center;
+margin:0;
+padding-top:2px;
+color:black;
+background-color:#FFD240;
+height:1.5em;
+font-weight:normal;
+font-size: 1.2em;
+}
+.alertMessageL2 {
+text-align: center;
+margin:0;
+color:black;
+background-color:#FFD240;
+height:1.5em;
+font-weight:normal;
+font-size: 1em;
+}
+</style>
